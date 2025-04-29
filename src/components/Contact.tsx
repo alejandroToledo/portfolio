@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { motion } from 'framer-motion';
-import { fadeIn, hoverScale, circleHover } from './animations';
+import { hoverScale, circleHover } from './animations';
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -15,10 +15,6 @@ export function Contact() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log(process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID);
-    console.log(process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID);
-    console.log(process.env.NEXT_PUBLIC_EMAILJS_TO_EMAIL);
-    console.log(process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY);
     setStatus('loading');
 
     try {
@@ -35,8 +31,8 @@ export function Contact() {
       );
       setStatus('success');
       setFormData({ name: '', email: '', message: '' });
-    } catch (error) {
-      setStatus('error');
+    } catch (error: any) {
+      setStatus(error.message);
     }
   };
 
