@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { fadeIn, staggerContainer, textReveal, hoverScale, circleHover } from './animations';
 
+
 export function Hero() {
   return (
     <motion.section 
