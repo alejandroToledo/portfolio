@@ -2,20 +2,31 @@ export function Skills() {
   const skills = [
     {
       category: 'Frontend',
-      items: ['TypeScript', 'React', 'Next.js', 'HTML5', 'CSS3', 'Tailwind CSS']
+      items: [
+        'React',
+        'Next.js',
+        'TypeScript',
+        'Tailwind CSS',
+        'Git',
+        'Redux Toolkit',
+        'Framer Motion',
+        'GraphQL',
+        'Vite',
+        'Responsive Design (Flexbox, Grid)'
+      ]  
     },
     {
       category: 'Backend',
-      items: ['Node.js', 'Express', 'PostgreSQL', 'Sequelize', 'REST APIs']
+      items: ['Node.js', 'Express', 'PostgreSQL', 'Sequelize', 'REST APIs', 'JWT (JSON Web Tokens)',]
     },
     {
       category: 'Herramientas',
-      items: ['Git', 'GitHub', 'Axios', 'Postman', 'VS Code']
+      items: ['Git', 'GitHub', 'Axios', 'Postman', 'Cursor', 'Photoshop','Illustrator', 'Figma']
     }
   ];
 
   return (
-    <section className="py-20 px-4 md:px-8 bg-white dark:bg-gray-800">
+    <section className="pt-12 pb-20 px-4 md:px-8 bg-white dark:bg-gray-800">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold mb-8">Habilidades Técnicas</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
