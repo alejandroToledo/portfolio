@@ -1,3 +1,8 @@
+'use client';
+
+import { motion } from 'framer-motion';
+import { fadeUp } from './animations';
+
 export function Education() {
   const education = [
     {
@@ -21,7 +26,13 @@ export function Education() {
   ];
 
   return (
-    <section className="py-20 px-4 md:px-8 bg-gray-50 dark:bg-gray-900">
+    <motion.section
+      className="py-20 px-4 md:px-8 bg-gray-50 dark:bg-gray-900"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.2 }}
+      variants={fadeUp}
+    >
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold mb-8">Educación</h2>
         <div className="space-y-8">
@@ -34,6 +45,6 @@ export function Education() {
           ))}
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 } 

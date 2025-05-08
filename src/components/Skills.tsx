@@ -1,3 +1,7 @@
+'use client';
+import { motion } from 'framer-motion';
+import { fadeUp } from './animations';
+
 export function Skills() {
   const skills = [
     {
@@ -26,7 +30,13 @@ export function Skills() {
   ];
 
   return (
-    <section className="pt-12 pb-20 px-4 md:px-8 bg-white dark:bg-gray-800">
+    <motion.section
+      className="pt-12 pb-20 px-4 md:px-8 bg-white dark:bg-gray-800"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.2 }}
+      variants={fadeUp}
+    >
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold mb-8">Habilidades Técnicas</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -45,6 +55,6 @@ export function Skills() {
           ))}
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 } 
