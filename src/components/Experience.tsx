@@ -8,14 +8,14 @@ export function Experience() {
       title: 'Desarrollador Full Stack',
       company: 'Jedify',
       period: '2020 - Actualidad',
-      description: 'Desempeñé el cargo de desarrollador de software con un enfoque destacado en el desarrollo frontend con React y backend con Node.js, sequelize y SQL. Contribuí activamente al éxito de proyectos clave para clientes de renombre, incluyendo empresas de la talla de Murchison y Newsan, donde asumí el rol de coordinador del Frontend. Mi trabajo se centró en la creación de soluciones técnicas innovadoras y eficientes que mejoraron significativamente la experiencia del usuario y la eficacia operativa. ',
+      description: 'He desarrollado aplicaciones web utilizando React, TypeScript, Node.js, Sequelize y SQL, participando en todas las etapas del ciclo de vida del software. He trabajado con arquitectura SPA tradicional y algunos proyectos con microfrontends (single-SPA), integrando APIs REST y optimizando la experiencia de usuario. Me he encargado de traducir diseños a código responsive, asegurando consistencia visual y funcionalidad, además de coordinar el equipo frontend, realizar revisiones de código, desarrollar pruebas con Jest y definir soluciones técnicas enfocadas en la eficiencia y escalabilidad.',
       skills: ['TypeScript', 'React', 'Node.js', 'PostgreSQL', 'Sequelize']
     },
     {
       title: 'Desarrollador Web',
       company: 'Freelance',
       period: 'Ene 2021 - Actualidad',
-      description: 'He colaborado con una variedad de clientes para diseñar y desarrollar sitios web a medida. Mi enfoque en la creatividad y la funcionalidad ha resultado en proyectos exitosos que cumplen con las necesidades de los clientes y mejoran su presencia en línea. Estos proyectos han fortalecido aún más mis habilidades en tecnologías clave, como React, JavaScript, HTML, CSS, y han consolidado mi capacidad para gestionar proyectos de manera eficiente y cumplir plazos',
+      description: 'Me especializo en el diseño y desarrollo de sitios web personalizados con un enfoque en la usabilidad, la estética y la experiencia del usuario. Me encargo de traducir diseños y wireframes (Figma, referencias visuales) a interfaces funcionales, responsive y optimizadas. Trabajo directamente con clientes para entender sus necesidades y proponer soluciones adaptadas a cada proyecto, utilizando tecnologías como React, JavaScript y CSS para crear experiencias web visualmente consistentes y accesibles.',
       skills: ['Liderazgo', 'Gestión de equipos', 'Planificación', 'Control de calidad']
     }
   ];

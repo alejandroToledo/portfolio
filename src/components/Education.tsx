@@ -9,7 +9,7 @@ export function Education() {
       institution: 'Mindhub',
       degree: 'Bootcamp FullStack MERN',
       period: '2020',
-      description: 'Full-time coding BootCamp de 600 horas de duración que implementa la metodología "learn by doing" y simula un entorno laboral real en el que se desarrollan diferentes proyectos bajo la metodología Scrum.'
+      description: 'Full-time coding BootCamp de 700 horas de duración que implementa la metodología "learn by doing" y simula un entorno laboral real en el que se desarrollan diferentes proyectos bajo la metodología Scrum.'
     },
     {
       institution: 'UBA',

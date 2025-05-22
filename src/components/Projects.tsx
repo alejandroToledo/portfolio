@@ -7,6 +7,13 @@ import { fadeIn, hoverScale, fadeUp } from './animations';
 export function Projects() {
   const freelanceProjects = [
     {
+      title: 'Soho construction',
+      description: 'Landing Page para empresa dedicada a la construcción residencial, arquitectura y desarrollo.',
+      image: '/images/projects/soho-construction.png',
+      technologies: ['React', 'Tailwind CSS', 'TypeScript'],
+      link: 'https://www.timelesstileinc.com/',
+    },
+    {
       title: 'Timeless Tile Inc',
       description: 'Sitio web corporativo para una empresa de instalación de pisos y azulejos. Diseño moderno y responsivo con enfoque en la experiencia del usuario.',
       image: '/images/projects/timeless-tile.png',

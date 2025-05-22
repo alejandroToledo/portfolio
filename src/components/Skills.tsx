@@ -13,19 +13,19 @@ export function Skills() {
         'Tailwind CSS',
         'Git',
         'Redux Toolkit',
-        'Framer Motion',
-        'GraphQL',
-        'Vite',
+        'Jest',
+        'Figma To Code',
+        'Chrome DevTools',
         'Responsive Design (Flexbox, Grid)'
       ]  
     },
     {
       category: 'Backend',
-      items: ['Node.js', 'Express', 'PostgreSQL', 'Sequelize', 'REST APIs', 'JWT (JSON Web Tokens)',]
+      items: ['Node.js', 'Express', 'PostgreSQL', 'Sequelize','Mongo DB', 'REST APIs', 'JWT (JSON Web Tokens)', 'Swagger']
     },
     {
       category: 'Herramientas',
-      items: ['Git', 'GitHub', 'Axios', 'Postman', 'Cursor', 'Photoshop','Illustrator', 'Figma']
+      items: ['Git', 'Jira', 'Axios','Metodologías ágiles (Scrum)', 'Postman', 'Cursor', 'Photoshop','Illustrator', 'Figma']
     }
   ];
 
